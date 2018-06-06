@@ -1,0 +1,41 @@
+html,body {margin:0;padding:0;background:#fff url(../images/base-bg.gif);width:100%;height:100%; font-family:Arial, Helvetica, sans-serif;}
+* html #wrap{height: 100%;}
+p,td { font-family:Arial, Helvetica, sans-serif; margin-top: 0px;}
+a img{border:0;}
+a{color:#e05e14;text-decoration: underline;}
+a:hover{
+	color:#EE7E3C;
+	text-decoration: underline;
+}
+a.hidden {text-decoration: none;color: #000;cursor:default;}
+form {margin:0;padding:0;}
+ul {margin-left:20px;margin-top:0px;padding:1px;list-style-type: square;line-height: 16px;}
+h1 { font-family:tahoma; font-size: 17px;color: #000;margin: 0px 0 7px; font-weight:normal;}
+
+.bottom_addr {font-size: 11px;color: #FFF;padding: 5px 0 15px 0; text-align:center; font-size:11px;}
+.bottom_addr a {text-decoration: none;}
+.bottom_addr a:hover {text-decoration: underline;}
+
+.bottom_menu {color: #fff;text-align: center;padding-top: 14px;padding-bottom: 4px; font-family:tahoma; font-size:11px;}
+.bottom_menu a {color: #fff;text-decoration: none;}
+.bottom_menu a:hover {color: #fff;text-decoration: underline;}
+
+.body_txt {color: #000;text-align: justify;padding: 10px;vertical-align: top; font-size:12px;}
+.login_form {background-image: url(../images/login-form-bg.gif);background-repeat: repeat-x;height: 20px;width: 110px;border-width: 1px;border-style: solid;font-size: 11px;padding-top: 3px;padding-left: 1px;}
+
+#wrap{position:relative; min-height:100%; margin:0 auto; width:100%;}
+#page{width:778px;margin:0 auto; border:1px solid #CCC; border-top:none; padding:0 1px 1px; background:#FFF;}
+#menu{width:778px; background-color:#d0cfd0; height:67px; border-bottom:1px solid #FFF;}
+	#menu ul{list-style:none; padding-left:10px;}
+	#menu ul li{float:left; margin: 0 5px; padding: 23px 0 7px 0; font-size:13px; font-family:"trebuchet MS"; font-weight:bold;}
+	#menu ul li a{padding:23px 25px 7px 25px; color:#000; text-decoration:none;}
+	#menu ul li a.current{background:#d56501 url(../images/menu-item-bg.gif) repeat-x top; border:1px solid #dddddd; border-top:none; color:#FFF; text-decoration:none; padding: 23px 24px 7px;}
+	#menu ul li a:hover{background:#d56501 url(../images/menu-item-bg.gif) repeat-x top; border:1px solid #dddddd; border-top:none; color:#FFF; text-decoration:none; padding: 23px 24px 7px;}
+#footer{width:778px; background:#e05e14 url(../images/footer-bg.gif); color:#FFF; font-family:tahoma;}
+#header{}
+#logo{ height:82px; width:44px; position:absolute; margin:37px 0 0 40px;}
+#slogan{ position:absolute; font-family:"Century Gothic"; font-size:13px; color:#f5a97f; margin:65px 0 0 90px;}
+#intro{background:url(../images/intro-bg.gif) repeat-x; height:148px;}
+#intro div{color:#FFF; font-size:12px; margin:15px;}
+#intro div.red{ text-align:right; margin:0; padding:0;}
+#company_name {font-size: 24px;font-weight: normal;text-transform:uppercase;color: #FFF; font-family:"Century Gothic"; position:absolute; margin:37px 0 0 90px;}
